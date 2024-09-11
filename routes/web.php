@@ -22,3 +22,4 @@ use Illuminate\Support\Facades\Route;
 //})->name('home');
 
 Route::resource('/usuario', 'App\Http\Controllers\UserController');
+Route::resource('/tarefa', 'App\Http\Controllers\TaskController');
