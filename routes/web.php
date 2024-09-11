@@ -21,5 +21,4 @@ use Illuminate\Support\Facades\Route;
 //return view('home');
 //})->name('home');
 
-Route::resource('/permission', 'App\Http\Controllers\PermissionController');
 Route::resource('/usuario', 'App\Http\Controllers\UserController');
